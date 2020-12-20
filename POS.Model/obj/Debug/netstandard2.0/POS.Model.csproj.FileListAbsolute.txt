@@ -1,0 +1,8 @@
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POS.Model\bin\Debug\netstandard2.0\POS.Model.deps.json
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POS.Model\bin\Debug\netstandard2.0\POS.Model.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POS.Model\bin\Debug\netstandard2.0\POS.Model.pdb
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POS.Model\obj\Debug\netstandard2.0\POS.Model.csprojAssemblyReference.cache
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POS.Model\obj\Debug\netstandard2.0\POS.Model.AssemblyInfoInputs.cache
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POS.Model\obj\Debug\netstandard2.0\POS.Model.AssemblyInfo.cs
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POS.Model\obj\Debug\netstandard2.0\POS.Model.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POS.Model\obj\Debug\netstandard2.0\POS.Model.pdb
