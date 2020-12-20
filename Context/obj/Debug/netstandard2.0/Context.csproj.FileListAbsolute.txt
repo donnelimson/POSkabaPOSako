@@ -1,0 +1,8 @@
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\netstandard2.0\Context.deps.json
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\netstandard2.0\Context.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\netstandard2.0\Context.pdb
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\netstandard2.0\Context.csprojAssemblyReference.cache
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\netstandard2.0\Context.AssemblyInfoInputs.cache
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\netstandard2.0\Context.AssemblyInfo.cs
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\netstandard2.0\Context.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\netstandard2.0\Context.pdb
