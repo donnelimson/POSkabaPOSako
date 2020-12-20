@@ -1,0 +1,8 @@
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POSkabaPOSako\bin\Debug\POSkabaPOSako.exe.config
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POSkabaPOSako\bin\Debug\POSkabaPOSako.exe
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POSkabaPOSako\bin\Debug\POSkabaPOSako.pdb
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.csprojAssemblyReference.cache
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.Properties.Resources.resources
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.csproj.GenerateResource.cache
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.exe
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.pdb

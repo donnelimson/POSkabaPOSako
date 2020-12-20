@@ -1,0 +1,5 @@
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Model\bin\Debug\Model.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Model\bin\Debug\Model.pdb
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Model\obj\Debug\Model.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Model\obj\Debug\Model.pdb
