@@ -11,6 +11,8 @@ namespace Model
     {
         [Key]
         public int Id { get; set; }
+        [MaxLength(20)]
+        public string Username { get; set; }
         [MaxLength(50)]
         public string FirstName { get; set; }
         [MaxLength(50)]

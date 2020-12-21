@@ -9,7 +9,6 @@ C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\K4os.Compress
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\K4os.Compression.LZ4.Streams.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\Model.dll
-C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\MySql.Data.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\MySql.Data.EntityFramework.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\Renci.SshNet.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\System.Buffers.dll
@@ -18,6 +17,7 @@ C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\System.Numeri
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\Zstandard.Net.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\MySql.Data.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\Model.pdb
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\EntityFramework.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\EntityFramework.SqlServer.xml
@@ -26,16 +26,14 @@ C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\Google.Protob
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\K4os.Compression.LZ4.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\K4os.Compression.LZ4.Streams.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\K4os.Hash.xxHash.xml
-C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\MySql.Data.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\MySql.Data.EntityFramework.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\Renci.SshNet.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\System.Buffers.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\System.Memory.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\bin\Debug\MySql.Data.xml
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\Context.csprojAssemblyReference.cache
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\Context.csproj.CopyComplete
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\Context.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\Context.pdb
-C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\Context.csproj.GenerateResource.cache
-C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Context\obj\Debug\Context.Migrations.migrate123.resources

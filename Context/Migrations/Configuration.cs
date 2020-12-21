@@ -19,6 +19,18 @@ namespace Context.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
+            SeedAppusers(context);
+        }
+        private void SeedAppusers(CommonContext context)
+        {
+            context.Appusers.AddOrUpdate(x => x.Username, new Model.Appuser
+            {
+                FirstName="Admin",
+                LastName ="Admin",
+                Password="asdf1234",
+                Username="admin"
+            });
+            context.SaveChanges();
         }
     }
 }

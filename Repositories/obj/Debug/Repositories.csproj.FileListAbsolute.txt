@@ -1,0 +1,11 @@
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\bin\Debug\Repositories.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\bin\Debug\Repositories.pdb
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\obj\Debug\Repositories.dll
+C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\obj\Debug\Repositories.pdb

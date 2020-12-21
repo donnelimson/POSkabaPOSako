@@ -1,15 +1,15 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Infrastructure.Services.AppuserService;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-public class BaseController:Form
+namespace POSkabaPOSako
 {
-	public void ConnectDatabase()
-	{
-		MySqlConnection connection;
-		string path = "Data Source=LOCALHOST;Initial Catalog=pos;user=root;password=''";
-		connection = new MySqlConnection(path);
-		connection.Open();
-	}
-	
+    public class BaseController:Form
+    {
+
+    }
 }
