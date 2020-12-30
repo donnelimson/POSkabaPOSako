@@ -38,6 +38,7 @@ namespace Infrastructure.Repositories
             {
                 return new AppuserDTO
                 {
+                    Id= data.Id,
                     FullName = data.FirstName + " " + data.LastName,
                     Username = data.Username
                 };

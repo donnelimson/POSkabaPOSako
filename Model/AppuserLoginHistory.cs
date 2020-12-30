@@ -16,6 +16,6 @@ namespace Model
         public int AppuserId { get; set; }
         public virtual Appuser Appuser { get; set; }
         public DateTime LoginDate { get; set; }
-        public DateTime LogoutDate { get; set; }
+        public DateTime? LogoutDate { get; set; }
     }
 }

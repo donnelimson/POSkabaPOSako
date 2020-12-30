@@ -18,22 +18,67 @@ namespace POSkabaPOSako
         {
             InitializeComponent();
         }
-        private void LoginForm_Load(object sender, EventArgs e)
+
+        #region Actions method
+        private void LoginButton_Click(object sender, EventArgs e)
         {
+            ProgressBarColor.SetState(progressBar1, 1); // 1 green
+            try
+            {
+                var appuserData = _appuserService.Login(UserTextbox.Text, PasswordTextbox.Text);
+                InitiateProgress(progressBar1);
+                backgroundWorker1.RunWorkerAsync();
+                if (appuserData != null)
+                {
+                    _appuserService.InsertLoginHistory(appuserData.Id);
+                    MessageBox.Show("Login successfully");
+                }
+                else
+                {
+                    MessageBox.Show("Login failed");
+                    ClearText();
+                }
+                progressBar1.Value = 0;
+            }
+            catch (Exception ex)
+            {
+                ProgressBarColor.SetState(progressBar1, 2); //2 red
+                InitiateProgress(progressBar1);
+                MessageBox.Show("An error occured");
+            }
+   
+        }
+        #endregion
+
+        #region private methods
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            ClearText();
+        }
+        private void ClearText()
+        {
+            UserTextbox.Clear();
+            PasswordTextbox.Clear();
+        }
+        private void BackgroundWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            var backgroundWorker = sender as BackgroundWorker;
+            for (int j = 0; j < 100000; j++)
+            {
+                backgroundWorker.ReportProgress((j * 100) / 100000);
+            }
 
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void BackgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            var login = _appuserService.Login("admin", "asdf1234");
-            if (login != null)
-            {
-                MessageBox.Show("Login successfully");
-            }
-            else
-            {
-                MessageBox.Show("Login failed");
-            }
+            progressBar1.Value = e.ProgressPercentage+1;
         }
+        private void DisableEnter(object sender, KeyEventArgs e)
+        {
+            DisableEnterOnMultilineTextbox(sender, e);
+        }
+        #endregion
+
+
     }
 }

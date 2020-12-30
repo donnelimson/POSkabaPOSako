@@ -9,3 +9,15 @@ C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\obj\Debug\Reposito
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\obj\Debug\Repositories.csproj.CopyComplete
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\obj\Debug\Repositories.dll
 C:\Users\Donnel Imson\source\repos\POSkabaPOSako\Repositories\obj\Debug\Repositories.pdb
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\Repositories.dll
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\Repositories.pdb
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.dll
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.pdb

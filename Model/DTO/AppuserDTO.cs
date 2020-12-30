@@ -8,6 +8,7 @@ namespace Model.DTO
 {
     public class AppuserDTO
     {
+        public int Id { get; set; }
         public string FullName { get; set; }
         public string Username { get; set; }
     }

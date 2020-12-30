@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AppuserLoginHistoryRepository.cs" />
     <Compile Include="Repositories\AppuserRepository.cs" />
     <Compile Include="Repositories\Base\RepositoryBase.cs" />
     <Compile Include="Services\Appuser\AppuserService.cs" />
