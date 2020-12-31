@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.PasswordTextbox = new System.Windows.Forms.TextBox();
@@ -38,11 +39,14 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.DatetimeLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -68,23 +72,21 @@
             this.PasswordTextbox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PasswordTextbox.Font = new System.Drawing.Font("Arial Narrow", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordTextbox.Location = new System.Drawing.Point(3, 59);
-            this.PasswordTextbox.Multiline = true;
             this.PasswordTextbox.Name = "PasswordTextbox";
             this.PasswordTextbox.PasswordChar = '*';
-            this.PasswordTextbox.Size = new System.Drawing.Size(295, 50);
+            this.PasswordTextbox.Size = new System.Drawing.Size(295, 41);
             this.PasswordTextbox.TabIndex = 2;
-            this.PasswordTextbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DisableEnter);
+            this.PasswordTextbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginKeydown);
             // 
             // UserTextbox
             // 
             this.UserTextbox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.UserTextbox.Font = new System.Drawing.Font("Arial Narrow", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserTextbox.Location = new System.Drawing.Point(3, 3);
-            this.UserTextbox.Multiline = true;
             this.UserTextbox.Name = "UserTextbox";
-            this.UserTextbox.Size = new System.Drawing.Size(295, 50);
+            this.UserTextbox.Size = new System.Drawing.Size(295, 41);
             this.UserTextbox.TabIndex = 1;
-            this.UserTextbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DisableEnter);
+            this.UserTextbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LoginKeydown);
             // 
             // tableLayoutPanel2
             // 
@@ -152,11 +154,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.DatetimeLabel);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 423);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 27);
             this.panel1.TabIndex = 3;
+            // 
+            // DatetimeLabel
+            // 
+            this.DatetimeLabel.AutoSize = true;
+            this.DatetimeLabel.Dock = System.Windows.Forms.DockStyle.Right;
+            this.DatetimeLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DatetimeLabel.ForeColor = System.Drawing.Color.White;
+            this.DatetimeLabel.Location = new System.Drawing.Point(753, 0);
+            this.DatetimeLabel.Name = "DatetimeLabel";
+            this.DatetimeLabel.Size = new System.Drawing.Size(47, 16);
+            this.DatetimeLabel.TabIndex = 0;
+            this.DatetimeLabel.Text = "label1";
             // 
             // tableLayoutPanel3
             // 
@@ -195,6 +210,11 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,9 +232,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -236,6 +259,8 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label DatetimeLabel;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

@@ -45,6 +45,8 @@
     <Compile Include="Appuser.cs" />
     <Compile Include="AppuserLoginHistory.cs" />
     <Compile Include="DTO\AppuserDTO.cs" />
+    <Compile Include="DTO\ItemMasterDTO.cs" />
+    <Compile Include="ItemMaster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

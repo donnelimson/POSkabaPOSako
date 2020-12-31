@@ -21,6 +21,7 @@ namespace Context
         #region DbSetFields
         public IDbSet<Appuser> Appusers { get; set; }
         public IDbSet<AppuserLoginHistory> AppuserLoginHistories { get; set; }
+        public IDbSet<ItemMaster> itemMasters { get; set; } 
         
         #endregion
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

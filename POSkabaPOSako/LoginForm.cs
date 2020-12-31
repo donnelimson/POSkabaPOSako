@@ -22,16 +22,24 @@ namespace POSkabaPOSako
         #region Actions method
         private void LoginButton_Click(object sender, EventArgs e)
         {
+            Login();
+        }
+        #endregion
+
+        #region private methods
+        private void Login()
+        {
             ProgressBarColor.SetState(progressBar1, 1); // 1 green
             try
             {
-                var appuserData = _appuserService.Login(UserTextbox.Text, PasswordTextbox.Text);
+                AppuserData = _appuserService.Login(UserTextbox.Text, PasswordTextbox.Text);
                 InitiateProgress(progressBar1);
                 backgroundWorker1.RunWorkerAsync();
-                if (appuserData != null)
+                if (AppuserData != null)
                 {
-                    _appuserService.InsertLoginHistory(appuserData.Id);
+                    _appuserService.InsertLoginHistory(AppuserData.Id);
                     MessageBox.Show("Login successfully");
+                    ShowNewForm(this, new MainForm());
                 }
                 else
                 {
@@ -46,11 +54,7 @@ namespace POSkabaPOSako
                 InitiateProgress(progressBar1);
                 MessageBox.Show("An error occured");
             }
-   
         }
-        #endregion
-
-        #region private methods
         private void ClearButton_Click(object sender, EventArgs e)
         {
             ClearText();
@@ -73,12 +77,25 @@ namespace POSkabaPOSako
         {
             progressBar1.Value = e.ProgressPercentage+1;
         }
-        private void DisableEnter(object sender, KeyEventArgs e)
+  
+        private void LoginForm_Load(object sender, EventArgs e)
         {
-            DisableEnterOnMultilineTextbox(sender, e);
+            DatetimeLabel.Text = DateTime.Now.ToString("MM/dd/yyyy hh:mm tt");
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DatetimeLabel.Text = DateTime.Now.ToString("MM/dd/yyyy hh:mm tt");
+        }
+
         #endregion
 
-
+        private void LoginKeydown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Login();
+            }
+        }
     }
 }

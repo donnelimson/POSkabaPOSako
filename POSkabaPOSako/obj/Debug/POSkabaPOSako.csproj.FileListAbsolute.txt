@@ -99,3 +99,4 @@ C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSka
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.csproj.CopyComplete
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.exe
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.pdb
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.MainForm.resources

@@ -56,7 +56,9 @@
     <Compile Include="Repositories\AppuserLoginHistoryRepository.cs" />
     <Compile Include="Repositories\AppuserRepository.cs" />
     <Compile Include="Repositories\Base\RepositoryBase.cs" />
+    <Compile Include="Repositories\ItemMasterRepository.cs" />
     <Compile Include="Services\Appuser\AppuserService.cs" />
+    <Compile Include="Services\Appuser\ItemMasterService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Context\Context.csproj">
