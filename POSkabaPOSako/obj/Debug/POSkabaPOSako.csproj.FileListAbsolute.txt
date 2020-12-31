@@ -93,10 +93,10 @@ C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\bin\Debug\Syste
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.csprojAssemblyReference.cache
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.BaseController.resources
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.LoginForm.resources
+C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.MainForm.resources
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.Properties.Resources.resources
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.csproj.GenerateResource.cache
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.csproj.CoreCompileInputs.cache
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.csproj.CopyComplete
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.exe
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.pdb
-C:\Users\donnel\Documents\Repository\POSkabaPOSako\POSkabaPOSako\obj\Debug\POSkabaPOSako.MainForm.resources

@@ -33,6 +33,20 @@ namespace POSkabaPOSako
             newForm.ShowDialog();
             oldForm.Close();
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // BaseController
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "BaseController";
+            this.ResumeLayout(false);
+
+        }
+
+
         //public void BackgroundWorker_DoWork(object sender, DoWorkEventArgs e)
         //{
         //    var backgroundWorker = sender as BackgroundWorker;

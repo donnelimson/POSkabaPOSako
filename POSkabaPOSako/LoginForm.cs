@@ -52,7 +52,7 @@ namespace POSkabaPOSako
             {
                 ProgressBarColor.SetState(progressBar1, 2); //2 red
                 InitiateProgress(progressBar1);
-                MessageBox.Show("An error occured");
+                MessageBox.Show(ex.ToString());
             }
         }
         private void ClearButton_Click(object sender, EventArgs e)

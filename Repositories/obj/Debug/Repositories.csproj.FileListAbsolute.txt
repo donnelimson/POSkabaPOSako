@@ -16,7 +16,6 @@ C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\Entity
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.xml
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.csproj.CopyComplete
 C:\Users\donnel\Documents\Repository\POSkabaPOSako\Repositories\obj\Debug\Repositories.dll
