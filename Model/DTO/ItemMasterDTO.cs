@@ -13,4 +13,9 @@ namespace Model.DTO
         public int Quantity { get; set; }
         public int Index { get; set; }
     }
+    public class ItemMasterButtonsDTO
+    {
+        public int Id { get; set; }
+        public string LongDescription { get; set; }
+    }
 }

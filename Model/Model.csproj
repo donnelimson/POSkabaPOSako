@@ -44,7 +44,9 @@
   <ItemGroup>
     <Compile Include="Appuser.cs" />
     <Compile Include="AppuserLoginHistory.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="DTO\AppuserDTO.cs" />
+    <Compile Include="DTO\CategoryDTO.cs" />
     <Compile Include="DTO\ItemMasterDTO.cs" />
     <Compile Include="ItemMaster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

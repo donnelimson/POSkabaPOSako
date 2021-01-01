@@ -15,7 +15,7 @@ namespace POSkabaPOSako
     public partial class MainForm :BaseController
     {
         ItemMasterService _itemMasterService = new ItemMasterService();
-        string headers = "{0,-10}{1,50}";
+        CategoryService _categoryService = new CategoryService();
 
         public MainForm()
         {
@@ -33,13 +33,13 @@ namespace POSkabaPOSako
             ItemListbox.DisplayMember = "LongDescription";
             QuantityListbox.DataSource = items;
             QuantityListbox.DisplayMember = "Quantity";
+            PopulateCategoryButtons();
             // ItemListbox.Items.Add(String.Format(headers, "Description", "Quantity"));
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
             DatetimeLabel.Text = DateTime.Now.ToString("MM/dd/yyyy hh:mm tt");
         }
-
         private void BarcodeTextbox_TextChanged(object sender, EventArgs e)
         {
             try
@@ -89,7 +89,41 @@ namespace POSkabaPOSako
             }
           
         }
+        private void PopulateCategoryButtons()
+        {
+            var categories = _categoryService.GetAllCategoriesButton();
+            var counter = 0;
+            foreach(var category in categories)
+            {
+                counter++;
+                Button categoryButton = new Button();
+                categoryButton.Name = category.Id.ToString();
+                categoryButton.Text = category.LongDescription;
+                categoryButton.Location = System.Drawing.Point.Add(new Point(4 + counter * 307, 4), new Size(20, 20));
+                categoryButton.Click += CategoryClick;
+                flowLayoutPanel1.Controls.Add(categoryButton);
+            }
+        }
 
+        #region handlers
+        private void CategoryClick(object sender, EventArgs e)
+        {
+            var button = (Button)sender;
+            var items = _itemMasterService.GetAllItemMasterButtons(int.Parse(button.Name));
+            flowLayoutPanel1.Controls.Clear();
+            var counter = 0;
+            foreach(var item in items)
+            {
+                counter++;
+                Button itemButton = new Button();
+                itemButton.Name = item.Id.ToString();
+                itemButton.Text = item.LongDescription;
+                itemButton.Location = System.Drawing.Point.Add(new Point(4 + counter * 307, 4), new Size(20, 20));
+               // itemButton.Click += CategoryClick;
+                flowLayoutPanel1.Controls.Add(itemButton);
+            }
+        }
+        #endregion
 
 
 

@@ -13,14 +13,14 @@ using System.Threading.Tasks;
 namespace Infrastructure.Repositories
 {
 
-    public class ItemMasterRepository : RepositoryBase<ItemMaster>
+    public class CategoryRepository : RepositoryBase<Category>
     {
         private readonly CommonContext _ctx;
-        public ItemMasterRepository(CommonContext ctx) : base(ctx)
+        public CategoryRepository(CommonContext ctx) : base(ctx)
         {
             _ctx = ctx;
         }
-        public override void InsertOrUpdate(ItemMaster entity)
+        public override void InsertOrUpdate(Category entity)
         {
             if (entity.Id.Equals(0))
             {
@@ -32,13 +32,11 @@ namespace Infrastructure.Repositories
             }
             _ctx.SaveChanges();
         }
-        public ItemMaster GetItemMasterByBarcode(string barcode)
+        public List<CategoryButtonsDTO> GetAllCategoriesButton()
         {
-            return GetAll.FirstOrDefault(x => x.BarCode == barcode);
+            return GetAll.Select(a => new CategoryButtonsDTO { Id=a.Id,LongDescription=a.LongDescription }).ToList();
         }
-        public List<ItemMasterButtonsDTO> GetAllItemMasterButtons(int categoryId)
-        {
-            return GetAll.Where(x => x.CategoryId == categoryId).Select(a => new ItemMasterButtonsDTO {Id=a.Id, LongDescription=a.LongDescription }).ToList();
-        }
+      
+
     }
 }

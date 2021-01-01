@@ -56,9 +56,11 @@
     <Compile Include="Repositories\AppuserLoginHistoryRepository.cs" />
     <Compile Include="Repositories\AppuserRepository.cs" />
     <Compile Include="Repositories\Base\RepositoryBase.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
     <Compile Include="Repositories\ItemMasterRepository.cs" />
     <Compile Include="Services\Appuser\AppuserService.cs" />
-    <Compile Include="Services\Appuser\ItemMasterService.cs" />
+    <Compile Include="Services\Category\CategoryService.cs" />
+    <Compile Include="Services\ItemMaster\ItemMasterService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Context\Context.csproj">
@@ -78,6 +80,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
