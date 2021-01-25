@@ -99,8 +99,16 @@ namespace POSkabaPOSako
                 Button categoryButton = new Button();
                 categoryButton.Name = category.Id.ToString();
                 categoryButton.Text = category.LongDescription;
-                categoryButton.Location = System.Drawing.Point.Add(new Point(4 + counter * 307, 4), new Size(20, 20));
+                categoryButton.Location = Point.Add(new Point(4 + counter * 307, 4), new Size(100, 100));
+                categoryButton.Width = 100;
+                categoryButton.Height = 75;
                 categoryButton.Click += CategoryClick;
+                categoryButton.FlatStyle = FlatStyle.Flat;
+                categoryButton.BackColor = Color.Gold;
+                categoryButton.ForeColor = Color.White;
+                categoryButton.Cursor = Cursors.Hand;
+                categoryButton.Font = new Font("Arial", 14, FontStyle.Bold);
+                categoryButton.FlatAppearance.BorderSize = 0;
                 flowLayoutPanel1.Controls.Add(categoryButton);
             }
         }
@@ -118,8 +126,16 @@ namespace POSkabaPOSako
                 Button itemButton = new Button();
                 itemButton.Name = item.Id.ToString();
                 itemButton.Text = item.LongDescription;
-                itemButton.Location = System.Drawing.Point.Add(new Point(4 + counter * 307, 4), new Size(20, 20));
-               // itemButton.Click += CategoryClick;
+                itemButton.Location = System.Drawing.Point.Add(new Point(4 + counter * 307, 4), new Size(100, 100));
+                itemButton.Width = 120;
+                itemButton.Height = 75;
+                itemButton.FlatStyle = FlatStyle.Flat;
+                itemButton.BackColor = Color.Green;
+                itemButton.ForeColor = Color.White;
+                itemButton.Cursor = Cursors.Hand;
+                itemButton.Font = new Font("Arial", 10, FontStyle.Bold);
+                itemButton.FlatAppearance.BorderSize = 0;
+                // itemButton.Click += CategoryClick;
                 flowLayoutPanel1.Controls.Add(itemButton);
             }
         }
